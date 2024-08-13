@@ -3,12 +3,12 @@
     <entity name="Photo" representedClassName="Photo" syncable="YES" codeGenerationType="class">
         <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="rawPhoto" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
-        <relationship name="photoAlbum" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoAlbum" inverseName="photos" inverseEntity="PhotoAlbum"/>
+        <relationship name="photoAlbum" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoAlbum" inverseName="photo" inverseEntity="PhotoAlbum"/>
     </entity>
     <entity name="PhotoAlbum" representedClassName="PhotoAlbum" syncable="YES" codeGenerationType="class">
         <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="photoAlbum" inverseEntity="Photo"/>
+        <relationship name="photo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="photoAlbum" inverseEntity="Photo"/>
     </entity>
 </model>

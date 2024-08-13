@@ -12,7 +12,7 @@
 		2A977EE32C6AE5A9005CE399 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A977EE22C6AE5A9005CE399 /* Base */; };
 		2A977EE82C6AE5AA005CE399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A977EE72C6AE5AA005CE399 /* Assets.xcassets */; };
 		2A977EEB2C6AE5AA005CE399 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A977EEA2C6AE5AA005CE399 /* Base */; };
-		2ACB87962C6AF20E00414FB4 /* VirtualTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB87942C6AF20E00414FB4 /* VirtualTourist.xcdatamodeld */; };
+		2AB803A12C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8039F2C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodeld */; };
 		2AFCA45E2C6AE87500611CB6 /* FlickrAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFCA45D2C6AE87500611CB6 /* FlickrAPIService.swift */; };
 		2AFCA45F2C6AE87500611CB6 /* ViewControllerCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFCA45C2C6AE87500611CB6 /* ViewControllerCustomExtension.swift */; };
 		2AFCA4602C6AE88A00611CB6 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFCA4552C6AE83400611CB6 /* CustomCollectionViewCell.swift */; };
@@ -31,7 +31,7 @@
 		2A977EE72C6AE5AA005CE399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A977EEA2C6AE5AA005CE399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A977EEC2C6AE5AA005CE399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ACB87952C6AF20E00414FB4 /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
+		2AB803A02C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTouristDataModel.xcdatamodel; sourceTree = "<group>"; };
 		2AFCA4552C6AE83400611CB6 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		2AFCA4562C6AE83400611CB6 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2AFCA4572C6AE83400611CB6 /* ResponseGetPhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseGetPhotoList.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				2AFCA4562C6AE83400611CB6 /* DataController.swift */,
 				2AFCA4572C6AE83400611CB6 /* ResponseGetPhotoList.swift */,
 				2AFCA4582C6AE83400611CB6 /* TravelPinAnnotation.swift */,
-				2ACB87942C6AF20E00414FB4 /* VirtualTourist.xcdatamodeld */,
+				2AB8039F2C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 				2AFCA4612C6AE88A00611CB6 /* ResponseGetPhotoList.swift in Sources */,
 				2AFCA4632C6AE88A00611CB6 /* TravelPinAnnotation.swift in Sources */,
 				2AFCA45F2C6AE87500611CB6 /* ViewControllerCustomExtension.swift in Sources */,
-				2ACB87962C6AF20E00414FB4 /* VirtualTourist.xcdatamodeld in Sources */,
 				2A977EDE2C6AE5A9005CE399 /* SceneDelegate.swift in Sources */,
 				2AFCA45E2C6AE87500611CB6 /* FlickrAPIService.swift in Sources */,
+				2AB803A12C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodeld in Sources */,
 				2AFCA4662C6AE89200611CB6 /* TravelLocationsMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,14 +429,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2ACB87942C6AF20E00414FB4 /* VirtualTourist.xcdatamodeld */ = {
+		2AB8039F2C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2ACB87952C6AF20E00414FB4 /* VirtualTourist.xcdatamodel */,
+				2AB803A02C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodel */,
 			);
-			currentVersion = 2ACB87952C6AF20E00414FB4 /* VirtualTourist.xcdatamodel */;
-			name = VirtualTourist.xcdatamodeld;
-			path = /Users/bremengnaht/GIT/UdacityProject/VirtualTouristV2/VirtualTourist/Models/VirtualTourist.xcdatamodeld;
+			currentVersion = 2AB803A02C6B2C55005A693D /* VirtualTouristDataModel.xcdatamodel */;
+			name = VirtualTouristDataModel.xcdatamodeld;
+			path = /Users/bremengnaht/GIT/UdacityProject/VirtualTourist/VirtualTourist/Models/VirtualTouristDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
